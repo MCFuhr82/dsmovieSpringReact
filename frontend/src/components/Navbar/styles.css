@@ -1,0 +1,29 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center; /* alinhamentos de item na vertical */
+}
+
+.bsmovie-nav-content {
+    display: flex; /* flex: para um elemento ficar do lado do outro e não abaixo */
+    justify-content: space-between; /* um elemento fica em cada ponta */
+    align-items: center;
+    color: #fff;
+}
+
+.bsmovie-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.bsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.bsmovie-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 14px;
+}
